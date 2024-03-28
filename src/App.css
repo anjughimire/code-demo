@@ -1,0 +1,42 @@
+.main-box{
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.75;
+  font-size: 0.875rem;
+  display: flex;
+}
+.box{
+  width: 50%;
+}
+.label{
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+.input-box{
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.div-box{
+  text-align: right;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  display: flex;
+  width: 50%;
+}
+.paragraph{
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.select{
+  border-radius: 0.75rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: #f3f4f6;
+  cursor: pointer;
+  outline: none;
+}
